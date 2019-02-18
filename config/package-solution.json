@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "todo-list-client-side-solution",
+    "id": "c0cf82ad-83b6-4aa0-8914-6cd412eb39df",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/todo-list.sppkg"
+  }
+}

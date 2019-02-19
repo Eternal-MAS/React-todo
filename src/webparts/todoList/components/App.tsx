@@ -1,9 +1,9 @@
 import * as React from 'react';
-import List from './List';
 import styles from './TodoList.module.scss'; 
-import { SPHttpClient, SPHttpClientResponse } from '@microsoft/sp-http';
+import List from './List';
 import ListInput from './ListInput';
 import { IListItem } from './IListItem';
+import { SPHttpClient, SPHttpClientResponse } from '@microsoft/sp-http';
 
 export default class TodoList extends React.Component<any, any> {
   
